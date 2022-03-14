@@ -1,13 +1,21 @@
-import logo from './logo.svg';
+
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        
+        <h1> 14/03/2022</h1>
+        <h1> Dear Diary</h1>
+        <h2> There is a level of fear and confusion right now because this whole rubbish looks so confusing and discouraging</h2>
+        <h3> its was a lovely monday with me waking up and  being super confident in my ability 
+          and i am, i also woke up with a renewed optimism in who i want to be, Then Reacty Happened.
+          so if you are seeing this page right now i need you to be very nice and say a little prayer for my mental health. 
+          <br />Thanks
+        </h3>
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+         This is my first react project, please be nice
         </p>
         <a
           className="App-link"
@@ -15,11 +23,11 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
         </a>
       </header>
     </div>
   );
 }
+
 
 export default App;
